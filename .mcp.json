@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "system-info": {
+      "command": "node",
+      "args": ["./mcp/system-info/dist/index.js"],
+      "env": {}
+    }
+  }
+}

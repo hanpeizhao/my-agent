@@ -1,0 +1,23 @@
+{
+  "name": "system-info-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for system information and utilities (纯手写实现)",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "system", "utilities"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "systeminformation": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
